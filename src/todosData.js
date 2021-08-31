@@ -11,7 +11,7 @@ const todosData = [
   },
   {
     id: 3,
-    text: 'JaveScript',
+    text: 'JavaScript',
     completed: false,
   },
   {

@@ -1,22 +1,31 @@
 body {
-  background-color: whitesmoke;
+  /* background-image: linear-gradient(
+    rgba(238, 201, 153, 0.993),
+    rgba(255, 136, 0, 0.863)
+  ); */
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
 
 .todo-list {
-  background-color: white;
+  background-color: linear-gradient(rgb(173, 79, 173));
   margin: auto;
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #efefef;
-  box-shadow:
-  /* The top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15),
-    /* The second layer */ 0 10px 0 -5px #eee,
-    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
-    /* The third layer */ 0 20px 0 -10px #eee,
-    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  border: 2px solid violet;
+  border-radius: 10px;
   padding: 30px;
+  margin-top: 80px;
 }
 
 .todo-item {
@@ -25,11 +34,11 @@ body {
   align-items: center;
   padding: 30px 20px 0;
   width: 70%;
-  border-bottom: 1px solid #cecece;
+  border-bottom: 1px solid #fff;
   font-family: Roboto, sans-serif;
   font-weight: 100;
   font-size: 15px;
-  color: #333333;
+  color: #fff;
 }
 
 input[type='checkbox'] {
